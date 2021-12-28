@@ -1,0 +1,72 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#main {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#title {
+    font-family: 'Comforter', cursive;
+    font-size: 100px;
+    color: #b0c4de;
+    text-align: center;
+}
+
+#img-div {
+    background-color: lavender;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+#image {
+    max-width: 60%;
+    border-radius: 5px;
+}
+
+#img-caption {
+    font-family: 'Comforter', cursive;
+    font-size: 200%;
+    text-align: center;
+    padding: 20px;
+}
+
+#img2 {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#image2 {
+    width: 300px;
+    margin: 5px;
+}
+
+#image3 {
+    width: 250px;
+    margin: 5px;
+}
+
+#image4 {
+    width: 600px;
+    margin: 5px;
+}
+
+#tribute-info {
+    color: #b0c4de;
+}
+
+
+h2 {
+    color: #b0c4de;
+}
+
+h2 > a {
+    text-decoration: none;
+    color: lightcoral;
+}
